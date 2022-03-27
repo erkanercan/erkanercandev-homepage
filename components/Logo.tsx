@@ -17,7 +17,7 @@ const LogoBox = styled.span`
   }
 
   &:hover img {
-    transform: rotate(45deg);
+    transform: rotate(30deg);
   }
 `;
 
