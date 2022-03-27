@@ -43,7 +43,7 @@ const Home: NextPage = () => (
         textAlign="center"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
       >
-        Hi, I&apos;m a full-stack developer based in Turkey!
+        Hi, I&apos;m a full-stack engineer based in Turkey!
       </Box>
 
       <Box display={{ md: "flex" }}>
