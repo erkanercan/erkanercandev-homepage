@@ -92,10 +92,10 @@ const Home: NextPage = () => (
           high-volume companies in <b>Turkey</b>, the <b>USA</b>, and{" "}
           <b>Japan</b> in{" "}
           <Link href="https://www.fill-labs.com/">Fill-Labs</Link> for 3 years.
-          A fast-paced learner with a true mentor and a well-cultured team.
-          Eager to learn new technologies and work with a good team. Currently
-          living in Turkey and worked remotely for a DeFi company on his last
-          job.
+          Erkan is a fast-paced learner with a true mentor and eager to learn
+          new technologies and work with a good team. Currently living in Turkey
+          and working as a front-end engineer at{" "}
+          <Link href="https://tokensuite.io/">TokenSuite</Link>.
         </Paragraph>
       </Section>
 
@@ -119,6 +119,10 @@ const Home: NextPage = () => (
         <BioSection>
           <BioYear>Oct 2021 - Apr 2022</BioYear>
           Worked at a DeFi company as a Full Stack Engineer.
+        </BioSection>
+        <BioSection>
+          <BioYear>May 2022 - Current</BioYear>
+          <Link href="https://tokensuite.io/">TokenSuite ❤️</Link>
         </BioSection>
       </Section>
 

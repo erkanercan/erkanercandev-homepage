@@ -11,6 +11,7 @@ const variants = {
 
 interface ArticleLayoutProps {
   title?: string;
+  children?: React.ReactNode;
 }
 
 const ArticleLayout: FC<ArticleLayoutProps> = ({ children, title }) => (
