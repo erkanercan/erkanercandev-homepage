@@ -27,6 +27,7 @@ interface LinkItemProps {
   alignItems?: string;
   style?: any;
   pl?: number;
+  children?: React.ReactNode;
 }
 
 const LinkItem: FC<LinkItemProps> = ({

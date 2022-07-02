@@ -8,6 +8,7 @@ interface GridItemProps {
   href: string;
   title: string;
   thumbnail: string;
+  children?: React.ReactNode;
 }
 
 export const GridItem: FC<GridItemProps> = ({
@@ -37,6 +38,7 @@ interface WorkGridItemProps {
   id: number;
   title: string;
   thumbnail: string;
+  children?: React.ReactNode;
 }
 
 export const WorkGridItem: FC<WorkGridItemProps> = ({

@@ -9,13 +9,12 @@ import theme from "../lib/theme";
 
 interface ChakraProps {
   cookies: any;
+  children?: React.ReactNode;
 }
 
 const Chakra: FC<ChakraProps> = ({ children, cookies }) => {
   const colorModeManager =
-    typeof cookies === "string"
-      ? cookieStorageManager(cookies)
-      : localStorageManager;
+    typeof cookies === "string" ? cookieStorageManager : localStorageManager;
 
   return (
     <ChakraProvider theme={theme} colorModeManager={colorModeManager}>

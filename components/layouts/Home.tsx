@@ -6,6 +6,7 @@ import Footer from "../Footer";
 
 interface MainLayoutProps {
   router: any;
+  children?: React.ReactNode;
 }
 
 const MainLayout: FC<MainLayoutProps> = ({ children, router }) => {
